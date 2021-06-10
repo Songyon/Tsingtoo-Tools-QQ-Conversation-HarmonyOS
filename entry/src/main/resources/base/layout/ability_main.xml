@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+
+    <TextField
+        ohos:id="$+id:exitText"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_padding="24vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:bubble_height="0"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:hint="请在此输入QQ号码"
+        ohos:text_input_type="pattern_number"
+        ohos:basement="#007CFD"
+        ohos:layout_alignment="center"
+        ohos:multiple_lines="false"/>
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="90vp"
+        ohos:height="35vp"
+        ohos:text_size="15fp"
+        ohos:text="开始会话"
+        ohos:background_element="$graphic:background_button"
+        ohos:layout_alignment="horizontal_center"
+        />
+    <Text
+        ohos:id="$+id:text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="© 2021 Tsingtoo Tools"
+        ohos:layout_alignment="horizontal_center"/>
+
+</DirectionalLayout>

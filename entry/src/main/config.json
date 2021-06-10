@@ -1,0 +1,47 @@
+{
+  "app": {
+    "bundleName": "tsingtoo.tools.qqconhmos",
+    "vendor": "tools",
+    "version": {
+      "name": "1.0.0",
+      "code": 1000000
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "tsingtoo.tools.qqconhmos",
+    "name": ".MyApplication",
+    "mainAbility": "tsingtoo.tools.qqconhmos.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "tsingtoo.tools.qqconhmos.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:QQcon",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
